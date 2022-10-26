@@ -1,0 +1,99 @@
+.footer{
+
+    padding: 1.5rem 0;
+    margin-top: 6rem;
+    background-color:var(--primary);
+  
+
+    
+}
+.footercont{
+    padding: .5rem 0;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+
+}
+.links ul{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+
+.ftr-icons{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 3.5vw;
+
+}
+.ftr-icon{
+   
+    color: rgb(255, 255, 255);    
+}
+
+.ftr-icons a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all.5s;
+}
+
+.ftr-email{
+    text-align: center;
+    color: rgb(255, 255, 255);  
+    font-size: 1.5vw;
+ 
+
+}
+.upScroll{
+     display: flex;
+     justify-content: center;
+    color: rgb(255, 255, 255);  
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+    
+   
+}
+.upScroll:hover{
+     cursor: pointer;
+    transform: scale(1.1);
+    transition: all.5s;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .footercont{
+        
+        grid-template-columns: repeat(2 , 1fr);
+    
+    }
+    .links ul{
+        font-size: 3vw;
+       
+    }
+    .upScroll{
+      
+       font-size: 4.8vw;
+      
+   
+   }
+   .ftr-icons{
+ 
+    font-size: 4.5vw;
+
+}
+.ftr-email{
+    font-size: 2.5vw;
+ 
+
+}
+
+
+
+}
